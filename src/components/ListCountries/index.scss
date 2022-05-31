@@ -1,0 +1,12 @@
+.container-list-countries {
+  display: flex;
+  flex-flow: wrap row;
+  width: 100%;
+  justify-content: flex-start;
+  .container-list-countries__country {
+    padding: 0.1rem;
+    button {
+      background-color: aliceblue;
+    }
+  }
+}

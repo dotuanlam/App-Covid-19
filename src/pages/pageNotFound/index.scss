@@ -1,0 +1,13 @@
+.page-not-found {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 35rem;
+  h1 {
+    color: rgb(19, 146, 146);
+    border-bottom: 1rem solid rgb(19, 146, 146);
+    cursor: pointer;
+  }
+}
