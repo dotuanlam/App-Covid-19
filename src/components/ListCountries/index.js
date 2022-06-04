@@ -5,10 +5,6 @@ import "./index.scss";
 
 const Index = () => {
   const [listCountriesName, setListCountriesName] = useState([]);
-  console.log(
-    "🚀 ~ file: index.js ~ line 7 ~ Index ~ listCountriesName",
-    listCountriesName
-  );
   const getDataCovid19 = () => {
     fetch("https://api.covid19api.com/summary")
       .then((res) => {
